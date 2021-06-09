@@ -20,5 +20,8 @@
   "homepage": "https://github.com/pablo-89/portfolio#readme",
   "dependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "sass": "^1.34.1"
   }
 }
