@@ -1,25 +1,187 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-
-  <title>Portfolio</title>
-  <meta name="description" content="Muestra de Portfolio Digital">
-  <meta name="author" content="Pablo Gonzalez">
-
-  <link rel="stylesheet" href="scss/main.scss">
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <meta name="description" content="Muestra de Portfolio Digital">
+    <meta name="author" content="Pablo Gonzalez">
+    <link rel="stylesheet" href="scss/body.scss">
+    <link rel="stylesheet" href="scss/main.scss">
 
 </head>
 
 <body>
-    <div class="entorno">
-        <div class="composicion"></div>
-        <div class="composicion cuerpo"></div>
+    <div class="header">
+        <img src="img/logoweb.gif" class="logo" width="100%">
+        <div class="header-right">
+            <ul>
+                <li><a class="menu servicios" href="#" id="jobs" data-title="Trabajos"><span>
+                            <span>Trabajos</span>
+                        </span></a></li>
+
+                <li><a class="menu recursos" href="#" id="about" data-title="Conoceme">
+                        <span>
+                            <span>Conoceme</span>
+                        </span>
+                    </a></li>
+                <li><a class="menu contacto" id="contact" data-title="Contacto">
+                        <span>
+                            <span>Contacto</span>
+                        </span>
+                    </a></li>
+            </ul>
+            <div class="header-position">
+
+            </div>
+        </div>
     </div>
-    <div class="division">
-        
+    <div class="main">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="img/home-office-4996834_1920.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="img/home-office-4996834_1920.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="img/home-office-4996834_1920.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <div class="container">
+            <div id="jobs" class="trabajos">
+                <div class="ventana">
+                    <div class="persiana">
+                        <div class="texto-ventana">
+                            <h2>Encuentra mis trabajos</h2>
+                        </div>
+                    </div>
+                    <div class="contenido">
+                        <div class="descripcion">
+                            <h2>Podra previsualizar nuestros trabajos facilmente</h2>
+                            <p><i>Trabajos echos con pasión, esfuerzo y dedicación</i></p>
+                        </div>
+
+                        <div class="row caja">
+                            <div class="column">
+                                <div id="animacion" class="movimiento">
+                                    <div class="card">
+                                        <h2>Diseños</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column">
+                                <div id="animacion" class="movimiento">
+                                    <div class="card">
+                                        <h2>Fotografia</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div id="animacion" class="movimiento">
+                                    <div class="card">
+                                        <h2>Html y Css</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div id="animacion" class="movimiento">
+                                    <div class="card">
+                                        <h2>Video</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="about" class="conoceme">
+            <h3>Hola, me llamo Pablo gonzalez y este es mi portfolio</h3>
+            <p><i>¿Porque me dedique a esta profesión?</i></p>
+            <p> Esa fue la pregunta que me hicierón siempre, y si te soy sincero, no lo se, siempre me encanto el
+                poder
+                crear con mis manos, el poder llegar a desarrollar cosas que venian a la mente, empece desde pequeño
+                dibujando en casa, prosegui haciendo fotos, y poco a poco me estaba metiendo cada dia mas en esto
+                sin
+                darme cuenta, llegue a los 16 y tenia que dar el paso de decidir un futuro sin tener nada claro ni
+                el
+                color de calcetines que queria ponerme, pero el dia que fuy a la casa de la moneda todo me lo dejo
+                claro, en mi familia siempre estuvo muy presente las artes graficas, veia a mi padre con tipos
+                moviles y
+                un dicionario gigante al lado, montando cliches, para despues poder imprimir esas grandes joyas que
+                salien por esa rotativa, hay fue donde me di cuenta que me encantaba el olor de la tinta, del papel
+                recien impreso, de poder crear cosas e imprimirlas para que centenares de personas pudieran
+                tenerlas,
+                pero claro no queria ser impresor , queria saber como funcionaba todo el tema editorial, todo este
+                mundo, ¿Quien le daba a mi padre esos dibujos tan bonitos que el luego imprimia?¿Quien creaba
+                eso?¿Que
+                tenia que aprender para poder hacerlo? y descubir las artes graficas, un mundo que engloba todo, me
+                di
+                cuenta que aya donde mirara todo era artes graficas, con el paso de los años la tecnologia fue
+                metiendose mas y mas, y tuvimos que dar el paso de entrar en el digital , suerte la mia que en ese
+                momento fue cuando empece a estudiar, por suerte para mi en ese momento me apasioba y empece con
+                preimpresion ayi descubir, como trabajar con orginales, a crear prodcutos para clientes, a entender
+                los
+                colores a comprender como funciona esas imagenes que yo veia y me preguntaba ¿porque a echo esto en
+                vez
+                de esto otro?, por suerte tuve a los mejores profesores, jamas olvidare a jairo y como nos metio en
+                el
+                mundo de quark y freehand mx , y como nos dio el paso y nos convirtio en diseñadores, maquetadores,
+                correctores, restauradores. Con el tiempo y la vida misma tuvimos que ir aplicando nuevos
+                conocimientos,
+                y fue cuando di el paso al video, empece haciendo videoclips para mis amigos y sus bandas,hasta que
+                termine en una televison comarcal que siempre le agradecere su oportunidad, al poco tiempo dige esto
+                no
+                puede parar y comenzamos con el mundo del html y el internet donde ya todos los diseños que me pedia
+                la
+                gente la mayor parte era para web y que mejor que aprender hacer todo y no quedarme solo en un
+                rincon
+                viendo como otros podrian seguir creando y yo no, porque en esta vida la unica barrera que hay eres
+                tu
+                mismo. De esta manera comenzo mi vida en este mundo laboral donde siempre hay sudor, lagrimas, risas
+                ,sobre todo muchisimas pasión y gusto por lo que hacemos </p>
+        </div>
+        <div id="contact" class="contacto">
+            <h2 class="descripcion">Contacto</h2>
+            <p>Ourense, Esp</p>
+            <p>Telefono: 642172506</p>
+            <p>Email: Trobatela@gmail.com</p>
+            <p><i>Pongase en contacto a traves de este formulario</i></p>
+            <input type="text" placeholder="Name" required name="Name">
+            <input type="text" placeholder="Email" required name="Email">
+            <input type="text" placeholder="Message" required name="Message"><br>
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
     </div>
-  <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
